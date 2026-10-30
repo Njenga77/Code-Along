@@ -70,3 +70,8 @@ HTML, CSS, Bootstrap 5, JavaScript (constructors, prototypes, DOM, event delegat
 **Test:** It should remove the contact with the matching id and return true.
 **Code:** `addressBook.deleteContact(1);`
 **Expected Output:** `true` (and `addressBook.contacts` is now `{}`)
+
+
+**Test:** It should return false if no contact has that id.
+**Code:** `addressBook.deleteContact(99);`
+**Expected Output:** `false`
