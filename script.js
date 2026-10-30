@@ -15,7 +15,10 @@ AddressBook.prototype.assignId = function() {
 };
 
 AddressBook.prototype.findContact = function(id) {
-  return this.contacts[id];
+  if (this.contacts[id] !== undefined) {
+    return this.contacts[id];
+  }
+  return false;
 };
 
 // Business Logic for Contacts ---------

@@ -57,3 +57,8 @@ HTML, CSS, Bootstrap 5, JavaScript (constructors, prototypes, DOM, event delegat
 **Test:** It should return the contact that matches the id.
 **Code:** `addressBook.findContact(1);`
 **Expected Output:** `Contact { firstName: "Titus", lastName: "Njenga", phoneNumber: "070-555-0100", id: 1 }`
+
+
+**Test:** It should return false if no contact has that id.
+**Code:** `addressBook.findContact(99);`
+**Expected Output:** `false`
