@@ -41,3 +41,11 @@ HTML, CSS, Bootstrap 5, JavaScript (constructors, prototypes, DOM, event delegat
 **Test:** It should increase currentId by 1 and return it each time it is called.
 **Code:** `addressBook.assignId();`
 **Expected Output:** `1` (then `2` on the next call)
+
+---
+
+**Describe:** AddressBook.prototype.addContact()
+
+**Test:** It should give a contact an id and store it in contacts under that id.
+**Code:** `addressBook.addContact(contact); addressBook.contacts[contact.id];`
+**Expected Output:** `Contact { firstName: "Titus", lastName: "Njenga", phoneNumber: "070-555-0100", id: 1 }`
