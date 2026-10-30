@@ -17,3 +17,11 @@ HTML, CSS, Bootstrap 5, JavaScript (constructors, prototypes, DOM, event delegat
 **Test:** It should create an AddressBook object with an empty contacts object and a currentId of 0.
 **Code:** `let addressBook = new AddressBook();`
 **Expected Output:** `AddressBook { contacts: {}, currentId: 0 }`
+
+---
+
+**Describe:** Contact()
+
+**Test:** It should create a Contact object with firstName, lastName and phoneNumber properties.
+**Code:** `let contact = new Contact("Titus", "Njenga", "070-555-0100");`
+**Expected Output:** `Contact { firstName: "Titus", lastName: "Njenga", phoneNumber: "070-555-0100" }`
