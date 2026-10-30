@@ -2,6 +2,8 @@
 
 An address book built with JavaScript constructors and prototypes. Contacts are stored in an `AddressBook` object (a mock database) and each one gets a unique, never-reused ID.
 
+**Live site:** https://njenga77.github.io/Code-Along/
+
 ## Setup
 1. Clone this repository.
 2. Open `index.html` in your browser.
