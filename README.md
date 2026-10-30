@@ -25,3 +25,11 @@ HTML, CSS, Bootstrap 5, JavaScript (constructors, prototypes, DOM, event delegat
 **Test:** It should create a Contact object with firstName, lastName and phoneNumber properties.
 **Code:** `let contact = new Contact("Titus", "Njenga", "070-555-0100");`
 **Expected Output:** `Contact { firstName: "Titus", lastName: "Njenga", phoneNumber: "070-555-0100" }`
+
+---
+
+**Describe:** Contact.prototype.fullName()
+
+**Test:** It should return a contact's first and last name joined by a space.
+**Code:** `contact.fullName();`
+**Expected Output:** `"Titus Njenga"`
