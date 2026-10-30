@@ -75,3 +75,8 @@ HTML, CSS, Bootstrap 5, JavaScript (constructors, prototypes, DOM, event delegat
 **Test:** It should return false if no contact has that id.
 **Code:** `addressBook.deleteContact(99);`
 **Expected Output:** `false`
+
+
+**Test:** It should never reuse a deleted contact's id.
+**Code:** `addressBook.currentId;` (after deleting contact 1 when 2 contacts were added)
+**Expected Output:** `2`
