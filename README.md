@@ -33,3 +33,11 @@ HTML, CSS, Bootstrap 5, JavaScript (constructors, prototypes, DOM, event delegat
 **Test:** It should return a contact's first and last name joined by a space.
 **Code:** `contact.fullName();`
 **Expected Output:** `"Titus Njenga"`
+
+---
+
+**Describe:** AddressBook.prototype.assignId()
+
+**Test:** It should increase currentId by 1 and return it each time it is called.
+**Code:** `addressBook.assignId();`
+**Expected Output:** `1` (then `2` on the next call)
