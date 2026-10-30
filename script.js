@@ -41,7 +41,7 @@ Contact.prototype.fullName = function () {
 };
 
 // User Interface Logic ---------
-let addressBook = new AddressBook(); c
+let addressBook = new AddressBook(); 
 
 function listContacts(addressBookToDisplay) {
     let contactsDiv = document.querySelector("div#contacts");
@@ -76,6 +76,10 @@ function handleFormSubmission(event) {
     addressBook.addContact(newContact);
     listContacts(addressBook);
 }
+
+  document.querySelector("input#new-first-name").value = null;
+  document.querySelector("input#new-last-name").value = null;
+  document.querySelector("input#new-phone-number").value = null;
 
 window.addEventListener("load", function () {
     document.querySelector("form#new-contact").addEventListener("submit", handleFormSubmission);
