@@ -14,6 +14,10 @@ AddressBook.prototype.assignId = function() {
   return this.currentId;
 };
 
+AddressBook.prototype.findContact = function(id) {
+  return this.contacts[id];
+};
+
 // Business Logic for Contacts ---------
 function Contact(firstName, lastName, phoneNumber) {
   this.firstName = firstName;

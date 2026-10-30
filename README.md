@@ -49,3 +49,11 @@ HTML, CSS, Bootstrap 5, JavaScript (constructors, prototypes, DOM, event delegat
 **Test:** It should give a contact an id and store it in contacts under that id.
 **Code:** `addressBook.addContact(contact); addressBook.contacts[contact.id];`
 **Expected Output:** `Contact { firstName: "Titus", lastName: "Njenga", phoneNumber: "070-555-0100", id: 1 }`
+
+---
+
+**Describe:** AddressBook.prototype.findContact()
+
+**Test:** It should return the contact that matches the id.
+**Code:** `addressBook.findContact(1);`
+**Expected Output:** `Contact { firstName: "Titus", lastName: "Njenga", phoneNumber: "070-555-0100", id: 1 }`
